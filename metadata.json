@@ -1,0 +1,6 @@
+{
+  "name": "SentinelOS",
+  "description": "A futuristic system control center and intelligent operating system interface with live diagnostics and advanced utility management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["AI Processing", "System Monitoring", "Network Intelligence"]
+}
