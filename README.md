@@ -177,20 +177,6 @@ npm run start
 - Action endpoint for terminate/suspend/resume
 - Client-side risk scoring and filtering controls
 
-## Screenshots (Placeholders)
-
-Replace these with real captures before submission.
-
-```md
-![Dashboard](docs/screenshots/dashboard-overview.png)
-![Security Alerts](docs/screenshots/security-alerts.png)
-![Process Manager](docs/screenshots/process-manager.png)
-![GhostShell](docs/screenshots/ghostshell-ai.png)
-![File Intelligence](docs/screenshots/file-intelligence.png)
-![Optimization Core](docs/screenshots/optimization-core.png)
-![System Visualization](docs/screenshots/system-visualization.png)
-```
-
 ## API Explanation
 
 ### Health and Telemetry
