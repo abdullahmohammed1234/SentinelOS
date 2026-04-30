@@ -387,7 +387,3 @@ SentinelOS is demo-ready for hackathon environments because it provides:
 - Real-time data transport and operational controls
 - AI-assisted command workflows and intelligence narratives
 - Clear roadmap from prototype to production-hardened platform
-
----
-
-If you are submitting this project, capture real screenshots, add a short architecture diagram, and include a 2-3 minute demo video link in this README for maximum judging impact.
