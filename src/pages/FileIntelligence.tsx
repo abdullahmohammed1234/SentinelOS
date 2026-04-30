@@ -370,44 +370,6 @@ export default function FileIntelligence() {
                  </div>
               </div>
 
-              <div className="glass-panel p-6 border-white/5">
-                 <div className="flex items-center justify-between mb-6">
-                    <div className="flex items-center gap-2">
-                       <SortAsc className="w-4 h-4 text-slate-500" />
-                       <h3 className="text-sm font-bold uppercase tracking-wider">Large Files</h3>
-                    </div>
-                 </div>
-                 <div className="space-y-2">
-                    {intelData?.stats.largeFiles.map((file) => (
-                       <div key={file.id} className="group p-3 rounded-xl border border-white/5 bg-black/20 hover:border-neo-cyan/30 transition-all cursor-pointer">
-                          <div className="flex items-center gap-3">
-                             <div className="p-2 rounded-lg bg-white/5 group-hover:bg-neo-cyan/10 transition-colors">
-                                <File className="w-4 h-4 text-slate-400 group-hover:text-neo-cyan" />
-                             </div>
-                             <div className="flex-1 min-w-0">
-                                <p className="text-xs font-bold text-white truncate leading-none mb-1">{file.name}</p>
-                                <p className="text-[10px] font-mono text-slate-600 truncate">{file.path}</p>
-                             </div>
-                             <div className="text-[10px] font-mono font-bold text-neo-magenta">
-                                {file.sizeFormatted}
-                             </div>
-                          </div>
-                       </div>
-                    ))}
-                 </div>
-              </div>
-
-              <div 
-                 className="glass-panel h-40 border-dashed border-white/10 flex flex-col items-center justify-center text-center p-6 group hover:border-neo-cyan/50 transition-all cursor-pointer"
-                 onDragOver={(e) => { e.preventDefault(); e.stopPropagation(); }}
-                 onDrop={(e) => { e.preventDefault(); e.stopPropagation(); startScan(); }}
-              >
-                 <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center mb-3 group-hover:bg-neo-cyan/10 group-hover:text-neo-cyan transition-colors">
-                    <RefreshCcw className="w-6 h-6 opacity-30 group-hover:opacity-100" />
-                 </div>
-                 <p className="text-xs font-bold text-slate-400">Drag folder here to scan</p>
-                 <p className="text-[10px] text-slate-600 mt-1 uppercase tracking-widest">or click to browse paths</p>
-              </div>
             </div>
           </motion.div>
         ) : (
